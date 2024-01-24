@@ -1,2 +1,2 @@
 # whatsapp_bot
-bot for sending news
+Bot for sending news to WhatsApp
