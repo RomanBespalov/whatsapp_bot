@@ -24,7 +24,7 @@ class GroupAdmin(admin.ModelAdmin):
     list_display = (
         'group_name',
         'group_account',
-        'group_url',
+        'group_id',
         'get_rss_for_group_display',
     )
 

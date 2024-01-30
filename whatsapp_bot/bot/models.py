@@ -46,8 +46,8 @@ class Group(models.Model):
         verbose_name='Привязанный аккаунт',
         related_name='group_accounts',
     )
-    group_url = models.TextField(
-        verbose_name='Ссылка на чат',
+    group_id = models.TextField(
+        verbose_name='ID группы',
         null=True,
     )
     rss_for_group = models.ManyToManyField(
